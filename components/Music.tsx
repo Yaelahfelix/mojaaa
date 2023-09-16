@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useEffect, useRef } from 'react';
-import Sound from 'react-sound';
 
 export default function Music(){
 
