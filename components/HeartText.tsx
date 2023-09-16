@@ -1,6 +1,6 @@
 import React, { ReactNode, useEffect } from 'react';
 
-export default function({children} : {children:ReactNode | string}) {
+export default function HeartText({children} : {children:ReactNode | string}) {
     useEffect(() => {
         function randomNum(m: number, n: number) {
           m = parseInt(m.toString());
